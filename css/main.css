@@ -1,0 +1,90 @@
+body{
+	color: #000;
+	font-size: 16px;
+	font-family: verdana;
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+ul, p, div, a, img, h1, h2, h3, h4{
+	border: 0; 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+h2{
+	color: #0d4369;
+	font-size: 1.5em;
+	margin: 10% 0;
+}
+
+h3{
+	margin: 5% 0;
+}
+
+h3 a{
+	color: #1fa0b3;
+}
+
+img{
+	width: 180px;
+}
+
+#wrap{
+	margin: 0 auto 10%;
+	width: 960px;
+}
+
+#datos{
+	display: inline-block;
+	margin: 15% 10% 0 0;
+	width: 30%;
+}
+
+#datos > article{
+	border-right: 3px solid #ddd;
+	width: 100%;
+}
+
+#datos #yo{
+	border-radius: 10px;
+	display: inline-block;
+	margin: -100px 0 0 10%;
+}
+
+
+#datos #yo img{
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 50px;
+	width: 150px;
+}
+
+#detalle{
+	margin-left: 20%;
+}
+
+#trabajos{
+	display: inline-block;
+	margin-top: 10%;
+	vertical-align: top;
+	width: 55%;
+}
+
+#trabajos img{
+	display: block;
+	margin: 5% auto;
+}
+
+#trabajos ul{
+	display: block;
+	margin: 2% 0;
+}
+
+.desc{
+	width: 100%;
+}
+
